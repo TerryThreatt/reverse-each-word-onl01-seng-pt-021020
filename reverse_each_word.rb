@@ -7,6 +7,6 @@ def reverse_each_word(str)
     puts "#{new_array.join(" ")}"
 end 
 
-def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
-end
+# def reverse_each_word(sentence)
+#   sentence.split.collect {|word| word.reverse}.join(" ")
+# end
